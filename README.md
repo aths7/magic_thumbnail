@@ -78,14 +78,14 @@ Processes multiple images based on the IMAGE_SOURCES environment variable. Handl
 All configurations are managed via environment variables in the .env file.
 
 ## Environment Variables
-`IMAGE_SOURCES`: Comma-separated list of image URLs or local file paths.
-`ENABLE_PARALLEL`: Enable (true) or disable (false) parallel processing.
-`LOG_FILE`: Name of the log file.
-`LOG_LEVEL`: Logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL).
-`SUPPORTED_FORMATS`: Comma-separated list of supported image formats.
+- `IMAGE_SOURCES`: Comma-separated list of image URLs or local file paths.
+- `ENABLE_PARALLEL`: Enable (true) or disable (false) parallel processing.
+- `LOG_FILE`: Name of the log file.
+- `LOG_LEVEL`: Logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL).
+- `SUPPORTED_FORMATS`: Comma-separated list of supported image formats.
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/aths7/magic_thumbnail/blob/main/LICENSE) file for details.
